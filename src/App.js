@@ -25,3 +25,5 @@ const { depositMoney, withdrawMoney  } = bindActionCreators(actionCreators, disp
 }
 
 export default App;
+
+// at this point code is broken, need thunk middleware
