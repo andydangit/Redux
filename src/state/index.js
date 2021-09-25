@@ -1,1 +1,1 @@
-export * from './action-creators/index'
+export * as bindActionCreators from './action-creators/index'

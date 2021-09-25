@@ -1,10 +1,13 @@
-import { useSelector } from 'react-redux'
-
-import './App.css';
+import { useSelector, useDispatch } from 'react-redux'
+import {bindActionCreators } from 'redux'
+import {} from './state/'
+import { actionCreators } from './state/index'
 
 function App() {
 
-const account = useSelector((state) => state.account)
+const account = useSelector((state) => state.account);
+
+const dispatch = useDispatch()
 
 console.log(account);
 
